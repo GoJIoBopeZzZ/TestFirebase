@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_menu"
+            android:title="@string/main_menu"
+            />
+    </group>
+
+    <item android:title="@string/account">
+        <menu>
+            <item
+                android:id="@+id/account_name"
+                android:title="@string/account_name_item"/>
+            <item
+                android:id="@+id/accaunt_location"
+                android:title="@string/city_item"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/purchases">
+        <menu>
+            <item
+                android:id="@+id/basket"
+                android:title="@string/basket_item"/>
+            <item
+                android:id="@+id/about_last_order"
+                android:title="@string/about_last_order_item"/>
+            <item
+                android:id="@+id/сomparisons"
+                android:title="@string/comparisons_item"/>
+            <item
+                android:id="@+id/orders"
+                android:title="@string/orders_item"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/top_shop">
+        <menu>
+            <item
+                android:id="@+id/feedback"
+                android:title="@string/feedback_item"/>
+            <item
+                android:id="@+id/address"
+                android:title="@string/address_item"/>
+            <item
+                android:id="@+id/contacts"
+                android:title="@string/contacts_item"/>
+            <item
+                android:id="@+id/about_app"
+                android:title="@string/about_item"/>
+        </menu>
+    </item>
+</menu>
